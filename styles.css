@@ -1,0 +1,75 @@
+body {
+    background: url(./images/Gallery_20240908_093826.png);
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    margin-top: -200px;
+}
+
+.container {
+    color:white;
+    font-size: 30px;
+    margin-left: -70px;
+    margin-top: 100px;
+
+    
+}
+h2{
+    margin-left: 200px;
+    margin-top:200px;
+    color:black;
+    font-size: 40px;
+    
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: -230px;
+    margin-bottom: 5px;
+    color: white;
+
+
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 20px;
+    list-style: none;
+    font-size: 30px;
+    border: none;
+    border-radius: 2px;
+    padding: 5px 12px;
+    background-color: gold;
+    margin-right:50px;
+    margin-left: -20px;
+    margin-top: -5px;
+    color: white;
+}
+
+nav ul li a {
+    color: black;
+}
+
+.price{
+    margin-top: 300px;
+    align-items: center;
+    color: blue;
+    margin-left: 50px;
+    font-size: 30px;
+
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    border: none;
+    border-radius: 10px;
+    background-color: green;
+    color: white;
+    font-size: 20px;
+}
